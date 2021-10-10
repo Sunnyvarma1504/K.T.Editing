@@ -1,0 +1,204 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 ,h2,h3,h4,h5,h6 {  
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+}
+
+ 
+
+
+    
+     /* Headings */
+     .big-heading{
+        font-family: 'Montserrat', sans-serif;
+         font-size: 3.5rem;
+         padding: 7% 0 ;
+         
+         color:blue;
+         
+     }
+     .small-heading{
+        font-family: 'Montserrat', sans-serif;
+         color : blue;
+         padding: 7% 0;
+
+     }
+      
+     .section-heading{
+        font-size: 3rem;
+        line-height: 1.5;
+        color: blue;
+        padding: 3%;
+     }
+    .subsection-heading{
+        font-size: 2rem;
+        color: blue;
+        padding: 2%;
+
+    }
+     
+
+    p{
+        color: #8f8f8f;
+    }
+
+
+  /* Container  */
+.container-fluid{
+    padding: 7% 15%;
+}
+button{
+  
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+   /* section */
+   .colored-section{
+       background-color: #ffff3e;
+       color: #ffff;
+   }
+   .white-section{
+       background-color: #ffff;
+       
+   }
+
+
+  /* navigation bar */
+
+ 
+
+      .navbar-brand{
+  
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+  
+   
+}
+
+.navbar {
+    padding: 0 0 3.0rem;
+  }
+.nav-item {
+    padding: 0 10px;
+  }
+  
+    /* TITLE */
+
+    #title{
+  
+        text-align: left;
+       
+    }
+    #title .container-fluid{
+        padding: 3% 15% 7%;
+    }
+
+/* download buttons */
+
+
+/* titleimage */
+
+.title-img{
+   width: 100%;
+    padding: 5.0rem;
+}
+
+
+ 
+
+/* Features  section */
+
+
+.feature-box{
+    
+    padding: 5%;
+}
+.icon{
+    margin-bottom: 1rem;
+    color:#ffff00 ;
+}
+.icon:hover{
+    color:#e7e704 ;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+
+/* work section */
+
+#testimonials{
+  
+ 
+    background-color: #ffff3e;
+}
+ 
+.work-image{
+    width: 40%;
+   
+    margin: 5px;
+}
+
+.achievement-image{
+    padding: 1%;
+    width: 60%;
+}
+ 
+
+/* press section  */
+
+#press{
+    background-color: #ffff3e;
+    
+    padding-bottom: 5%;
+}
+
+/* pricing section  */
+
+
+
+
+
+
+
+
+
+ /* call to action section */
+
+
+
+
+/* footer section */
+
+.footer-link{
+    padding: 5%;
+    margin-bottom: 13%;
+}
+.footer-writing{
+    padding: 1%;
+}
+
+
+@media(max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+
+.title-img{
+    position: static;
+    transform: rotate(0);
+}
+
+
+}
