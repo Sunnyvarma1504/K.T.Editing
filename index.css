@@ -64,7 +64,10 @@ button{
        color: #ffff;
    }
 
-   
+   .work-section{ 
+       background-color: #8080;
+       color: #ffff;}
+
    .white-section{
        background-color: #ffff;
        
